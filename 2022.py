@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#copy from peterbrittain at https://github.com/peterbrittain/asciimatics/blob/master/samples/fireworks.py
 from asciimatics.effects import Stars, Print
 from asciimatics.particles import RingFirework, SerpentFirework, StarFirework, \
     PalmFirework
