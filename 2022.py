@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 #copy from peterbrittain at https://github.com/peterbrittain/asciimatics/blob/master/samples/fireworks.py
+import os
+from threading import Thread
+from playsound import playsound
+
 from asciimatics.effects import Stars, Print
 from asciimatics.particles import RingFirework, SerpentFirework, StarFirework, \
     PalmFirework
@@ -10,6 +14,8 @@ from asciimatics.exceptions import ResizeScreenError
 from random import randint, choice
 import sys
 
+def play_sound():
+    playsound('firework.mp3')
 
 def demo(screen):
     scenes = []
@@ -50,12 +56,12 @@ def demo(screen):
                          speed=1,
                          start_frame=100))
     scenes.append(Scene(effects, -1))
-
     screen.play(scenes, stop_on_resize=True)
-
 
 while True:
     try:
+        thread = Thread(target=play_sound)
+        thread.start()
         Screen.wrapper(demo)
         sys.exit(0)
     except ResizeScreenError:
