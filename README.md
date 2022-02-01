@@ -28,3 +28,5 @@ how to download and use
 **to run**
 
 `python3 luck_money.py`
+
+![image](https://user-images.githubusercontent.com/46470547/151931641-caffcff3-9405-4762-85d6-b5e462cd933d.png)
