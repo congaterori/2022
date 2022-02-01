@@ -1,8 +1,9 @@
 import os
 import time
 import random
-import ctypes
-ctypes.windll.kernel32.SetConsoleTitleW("tet")
+import sys
+print('\33]0;tet\a', end='')
+sys.stdout.flush()
 if os.name == "nt":
     os.system('cd tet && tet.bat')
 def clear():
