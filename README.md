@@ -30,3 +30,5 @@ how to download and use
 `python3 luck_money.py`
 
 ![image](https://user-images.githubusercontent.com/46470547/151931641-caffcff3-9405-4762-85d6-b5e462cd933d.png)
+
+![image](https://user-images.githubusercontent.com/46470547/151931704-ea54c09c-8307-443f-8bdf-dbefa48f6d2b.png)
