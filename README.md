@@ -22,3 +22,9 @@ how to download and use
 ``pip3 install -r requirements.txt``
 
 ``python3 2022.py``
+
+**add new now have lucky money**
+
+**to run**
+
+`python3 luck_money.py`
